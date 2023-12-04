@@ -1,0 +1,8 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~detection_rate" : \b [int] Detection Rate in Hz min: 1, default: 30, max: 60
+- \b "~tracking_rate" : \b [int] Tracking Rate in Hz min: 1, default: 30, max: 60
+- \b "~enable_recognition" : \b [bool] Enable Recognition min: False, default: True, max: True
+

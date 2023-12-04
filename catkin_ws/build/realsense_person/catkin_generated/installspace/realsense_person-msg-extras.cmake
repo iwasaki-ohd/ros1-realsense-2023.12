@@ -1,0 +1,2 @@
+set(realsense_person_MESSAGE_FILES "msg/BoundingBox.msg;msg/RegisteredPoint.msg;msg/PersonId.msg;msg/Person.msg;msg/PersonDetection.msg;msg/PersonFace.msg;msg/PersonSkeleton.msg;msg/PersonBody.msg;msg/PersonTracking.msg")
+set(realsense_person_SERVICE_FILES "srv/GetTrackingId.srv;srv/Register.srv;srv/Recognize.srv;srv/Reinforce.srv;srv/StartTracking.srv;srv/StopTracking.srv;srv/Serialize.srv;srv/Deserialize.srv")

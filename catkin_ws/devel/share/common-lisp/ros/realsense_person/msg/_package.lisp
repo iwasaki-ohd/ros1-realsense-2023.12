@@ -1,0 +1,23 @@
+(cl:defpackage realsense_person-msg
+  (:use )
+  (:export
+   "<BOUNDINGBOX>"
+   "BOUNDINGBOX"
+   "<PERSON>"
+   "PERSON"
+   "<PERSONBODY>"
+   "PERSONBODY"
+   "<PERSONDETECTION>"
+   "PERSONDETECTION"
+   "<PERSONFACE>"
+   "PERSONFACE"
+   "<PERSONID>"
+   "PERSONID"
+   "<PERSONSKELETON>"
+   "PERSONSKELETON"
+   "<PERSONTRACKING>"
+   "PERSONTRACKING"
+   "<REGISTEREDPOINT>"
+   "REGISTEREDPOINT"
+  ))
+

@@ -1,0 +1,23 @@
+
+(cl:in-package :asdf)
+
+(defsystem "realsense_person-srv"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils )
+  :components ((:file "_package")
+    (:file "Deserialize" :depends-on ("_package_Deserialize"))
+    (:file "_package_Deserialize" :depends-on ("_package"))
+    (:file "GetTrackingId" :depends-on ("_package_GetTrackingId"))
+    (:file "_package_GetTrackingId" :depends-on ("_package"))
+    (:file "Recognize" :depends-on ("_package_Recognize"))
+    (:file "_package_Recognize" :depends-on ("_package"))
+    (:file "Register" :depends-on ("_package_Register"))
+    (:file "_package_Register" :depends-on ("_package"))
+    (:file "Reinforce" :depends-on ("_package_Reinforce"))
+    (:file "_package_Reinforce" :depends-on ("_package"))
+    (:file "Serialize" :depends-on ("_package_Serialize"))
+    (:file "_package_Serialize" :depends-on ("_package"))
+    (:file "StartTracking" :depends-on ("_package_StartTracking"))
+    (:file "_package_StartTracking" :depends-on ("_package"))
+    (:file "StopTracking" :depends-on ("_package_StopTracking"))
+    (:file "_package_StopTracking" :depends-on ("_package"))
+  ))

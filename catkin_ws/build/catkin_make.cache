@@ -1,0 +1,2 @@
+ROS-TCP-Endpoint:camera_opencv:darknet_ros/darknet_ros:darknet_ros/darknet_ros_msgs:detection_msgs:hello:image_gain1:motpy:motpy_ros/motpy_ros:my_topic:opencv_example:person_tracking_ros:realsense-ros/realsense2_camera:realsense-ros/realsense2_description:realsense_person:rs_depth_check:yolo_person:yolov5_ros
+-DCATKIN_DEVEL_PREFIX=/home/moriokalab-pc16/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/moriokalab-pc16/catkin_ws/install -G Unix Makefiles

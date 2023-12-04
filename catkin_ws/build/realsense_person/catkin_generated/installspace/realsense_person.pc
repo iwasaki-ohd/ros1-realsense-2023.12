@@ -1,0 +1,8 @@
+prefix=/home/moriokalab-pc16/catkin_ws/install
+
+Name: realsense_person
+Description: Description of realsense_person
+Version: 0.1.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lrealsense_person_nodelet
+Requires: std_msgs sensor_msgs geometry_msgs message_runtime

@@ -1,0 +1,9 @@
+\subsubsection usage Usage
+\verbatim
+<node name="realsense_person" pkg="realsense_person" type="realsense_person">
+  <param name="detection_rate" type="int" value="30" />
+  <param name="tracking_rate" type="int" value="30" />
+  <param name="enable_recognition" type="bool" value="True" />
+</node>
+\endverbatim
+
